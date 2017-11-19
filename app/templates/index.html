@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My App</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+    <link rel="stylesheet" href="static/default.css">
+  </head>
+  <body>
+    <style media="screen">
+      body:{background-image: url(static/img/bg.jpg);}
+    </style>
+    <div class="page-group">
+        <div class="page page-current">
+        <!-- 你的html代码 -->
+          <div class="content-padded">
+
+            <header class="bar bar-nav">
+              <h1 class="title">HOME</h1>
+            </header>
+            <nav class="bar bar-tab bar-footer">
+              <a class="tab-item external active" href="http://216.189.56.139/">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">文案</span>
+              </a>
+              <a class="tab-item external" href="http://216.189.56.139/show/">
+                <span class="icon icon-code"></span>
+                <span class="tab-label">文案</span>
+              </a>
+            </nav>
+            <div class="content-padded content">
+              <p>
+                这是一个测试APP，会添加一些自己需要的功能，或者在学习的技能</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script>
+      $.config{
+        router:false
+      }
+      $.init()
+    </script>
+    <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+
+  </body>
+</html>
